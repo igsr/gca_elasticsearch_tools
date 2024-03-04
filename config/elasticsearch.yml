@@ -1,5 +1,5 @@
 discovery.zen.ping.multicast.enabled: false
-discovery.zen.ping.unicast.hosts: ["ves-${DATACENTRE}-e3", "ves-${DATACENTRE}-e4"]
+discovery.zen.ping.unicast.hosts: ["wp-${DATACENTRE}-1a-x", "wp-${DATACENTRE}-1b-x"]
 #discovery.zen.minimum_master_nodes: 3
 gateway.expected_nodes: 2
 bootstrap.mlockall: true

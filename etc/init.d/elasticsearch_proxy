@@ -13,7 +13,7 @@ ES_HOME=`dirname $0`/../../
 SCRIPT=$ES_HOME/scripts/elasticsearch_proxy/elasticsearch_proxy.pl
 
 case $HOSTNAME in
-  ('wp-np2-1c.ebi.ac.uk')
+  ('wp-np2-1c-x.ebi.ac.uk')
     MOJO_CONF=$ES_HOME/config/elasticsearchproxy.igsr.conf
     PROJECT_HOME=/nfs/public/rw/igsr/igsr_website_staging
     ;;
